@@ -1,5 +1,7 @@
 # Minitest::Redgreen
 
+[![endorse](https://api.coderwall.com/meetdom/endorsecount.png)](https://coderwall.com/meetdom)
+
 Colorizes and corrects pluralization of Minitest output.
 
 This gem was forked from https://github.com/jparker/minitest-redgreen. I found it wasn't published to RubyGems.org, but was a viable working alternative to `minitest-colorize` which is still uses `require 'minitest/unit'` and the older `MiniTest` module name instead of the newer `Minitest`.
