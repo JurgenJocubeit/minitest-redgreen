@@ -2,7 +2,7 @@ require 'minitest/autorun'
 require 'minitest/redgreen'
 require 'stringio'
 
-class TestMiniTestRedgreen < Minitest::Test
+class TestMinitestRedgreen < Minitest::Test
   def setup
     @iostream = StringIO.new
   end
