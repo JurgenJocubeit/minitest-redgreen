@@ -5,13 +5,14 @@ require 'minitest/redgreen/version'
 
 Gem::Specification.new do |gem|
   gem.name          = "minitest-redgreen"
-  gem.version       = MiniTest::Redgreen::VERSION
-  gem.authors       = ["John Parker"]
-  gem.email         = ["jparker@urgetopunt.com"]
-  gem.description   = %q{Colorize minitest test output.}
-  gem.summary       = %q{Colorize minitest output: failing red, pending yellow, passing green.}
-  gem.homepage      = ""
-
+  gem.version       = Minitest::Redgreen::VERSION
+  gem.authors       = ["Dom Jocubeit", "John Parker"]
+  gem.email         = ["hello@meetdom.com", "jparker@urgetopunt.com"]
+  gem.summary       = %q{Colorize and pluralize minitest test output.}
+  gem.description   = %q{Colorize and pluralize minitest output: failing red, pending yellow, passing green and errors purple.}
+  gem.homepage      = "https://github.com/MeetDom/minitest-redgreen"
+  gem.platform      = Gem::Platform::RUBY
+  
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
