@@ -1,27 +1,44 @@
 # Minitest::Redgreen
 
-This is proof of concept of colorizing minitest output. I'm pretty sure
-there are already gems for doing this. This was only an exercise.
+Colorizes and corrects pluralization of Minitest output.
+
+This gem was forked from https://github.com/jparker/minitest-redgreen.
+
+I found it wasn't published to RubyGems.org, but was a viable working alternative to `minitest-colorize` which is still uses `require 'minitest/unit'` and the older `MiniTest` module name instead of the newer `Minitest`.
+
+I've added pluralization correction to the Minitest output, because incorrect grammar annoys me.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'minitest-redgreen'
+``` ruby
+gem 'minitest-redgreen'
+```
 
 And then execute:
 
-    $ bundle
+``` bash
+$ bundle
+```
 
 Or install it yourself as:
 
-    $ gem install minitest-redgreen
+``` bash
+$ gem install minitest-redgreen
+```
+
+## Requirements
+
+This gem has a dependency on `minitest 5.x`.
 
 ## Usage
 
 Add this line to your application's test_helper.rb or spec_helper.rb:
 
-    require 'minitest/redgreen'
+``` ruby
+require 'minitest/redgreen'
+```
 
 ## Contributing
 
