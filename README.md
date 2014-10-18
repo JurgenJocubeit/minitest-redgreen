@@ -1,6 +1,6 @@
 # Minitest::Redgreen
 
-[![endorse](https://api.coderwall.com/meetdom/endorsecount.png)](https://coderwall.com/meetdom)
+[![endorse](https://api.coderwall.com/meetdom/endorsecount.png)](https://coderwall.com/meetdom)  [![minitest-redgreen API Documentation](https://www.omniref.com/ruby/gems/minitest-redgreen.png)](https://www.omniref.com/ruby/gems/minitest-redgreen)
 
 Colorizes and corrects pluralization of Minitest output.
 
